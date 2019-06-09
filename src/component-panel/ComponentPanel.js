@@ -3,7 +3,7 @@ import './ComponentPanel.scss'
 
 function ComponentPanel() {
     return (
-        <div className="ComponentPanel">
+        <div className="ComponentPanel col-4">
             <p>Hello here is going to be more components</p>
         </div>
     )

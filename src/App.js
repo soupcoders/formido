@@ -5,9 +5,11 @@ import FormPreview from './form-preview/FormPreview';
 
 function App() {
   return (
-    <div className="App">
-      <ComponentPanel />
-      <FormPreview />
+    <div className="App container">
+        <div className="row">
+            <ComponentPanel />
+            <FormPreview />
+        </div>
     </div>
   );
 }
