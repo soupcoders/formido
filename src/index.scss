@@ -1,5 +1,11 @@
+@import "Common";
+
+html {
+  height: 100%;
+}
+
 body {
-  background: url("./background.jpg");
+  background-image: linear-gradient(135deg, $color2 0%, $color3 100%);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",

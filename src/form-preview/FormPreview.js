@@ -10,7 +10,6 @@ class FormPreview extends React.Component {
             </div>
         )
     }
-
 }
 
 export default FormPreview;

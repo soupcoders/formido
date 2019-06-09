@@ -1,3 +1,11 @@
+@import "../Common";
+
 .FormPreview {
-    background-color: red;
+    background-color: $color3;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-right: -10px;
+    padding-left: 20px;
+    border: 1px solid invert($color3, 70);
+    color: white;
 }
