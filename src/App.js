@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import ComponentPanel from './component-panel/ComponentPanel';
 import FormPreview from './form-preview/FormPreview';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import './ComponentPanel.css'
+import './ComponentPanel.scss'
 
 function ComponentPanel() {
     return (

@@ -1,12 +1,16 @@
 import React from 'react';
-import './FormPreview.css'
+import './FormPreview.scss'
 
-function FormPreview() {
-    return (
-        <div className="FormPreview">
-            <p>This is form preview</p>
-        </div>
-    )
+class FormPreview extends React.Component {
+
+    render() {
+        return (
+            <div className="FormPreview">
+                <p>This is form preview</p>
+            </div>
+        )
+    }
+
 }
 
 export default FormPreview;
